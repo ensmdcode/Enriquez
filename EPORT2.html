@@ -1,0 +1,301 @@
+<html>
+<head>
+    <title>E-Portfolio 2nd Quarter</title>
+    <style>
+        @font-face {
+            font-family: lala;
+            src: url('mercy.ttf')
+        }
+       * {
+           font-family: lala;
+       }
+        body {
+            background-image: url('purp.jpg');
+           background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: 100vh;
+            padding-top: 150px;
+        }
+        header {
+            width: 100%;
+            height: 15%;
+            padding: 30px 20px;
+            background-image: url('gren.jpg');
+            text-align: center;
+            position: absolute;            
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 38px;        
+            font-weight: bold;
+            margin: 0;
+            color: #ffffff;
+            text-shadow: -5px -1px 0 #d995ff;
+        }
+
+        header h2 {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #ffffff;
+            text-shadow: -5px -1px 0 #d995ff;
+        }
+        
+        .left-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 20px;
+            margin-top: 20px;
+        }
+
+        .audio-container {
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+            color: #abd423;
+            text-shadow: -2px -1px 0 #ffffff;
+            font-size: 20px;
+        }
+
+        audio {
+            width: 80%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .divider {
+            border-left: 3px solid white;
+            height: 100%;
+            margin-left: 20px;
+        }
+
+        .right-section {
+            margin-left: 50px; 
+            padding: 20px;
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+            border-spacing: 15px;
+            border-collapse: separate;
+            margin-bottom: 30px;
+        }
+
+        td {
+            padding: 20px;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 10px;
+            background-color: #abd423;
+            font-size: 18px;
+            position: relative;
+        }
+       
+
+        .image-cell img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #ffffff 
+        }
+
+        td:hover {
+            background-color: #555;
+            cursor: pointer;
+        }
+        
+        td:not(.image-cell) {
+            background-color: #bb74e7; 
+            color: #ffffff;
+        }
+
+        .text-box-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+
+        .text-box {
+            width: 22%;
+            padding: 15px          
+            color: white;
+            font-size: 14px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .video-description {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #abd423;
+            color: #ffffff;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .extra-space {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+        }
+        
+        .conclusion {
+            background-color: #bb74e7;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            font-size: 18px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .conclusion h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        
+        .video-container {
+            text-align: center;
+        }
+       .map {
+           color: #bb74e7;
+           text-align: center;
+       }
+    </style>
+</head>
+<body>
+<header>
+    <h1>2ND QUARTER</h1>
+    <h2>Mary Izzabel R. Enriquez | 9-Fairness</h2>
+</header>
+<div class="left-section">
+    <div class="audio-container">
+        <p>Listen to some tunes! <br><br>
+Re-Arrange, by Biffy Clyro<br><audio controls>
+            <source src="rearrange.mp3">
+  
+        </audio><a href="eport1.html"> 1ST QUARTER E-PORT </a></p>
+    </div>
+    <div class="divider"></div>
+</div>
+<div class="right-section">
+    <table>
+        <tr>
+            <td class="image-cell">
+                <img src="sci.jpg" alt="Image 1">
+            </td>
+            <td>
+                <div class="text-box">SCIENCE FASHION SHOW</div>
+            </td>
+            <td>
+                <div class="text-box">VOLLEYBALL PRACTICE</div>
+            </td>
+            <td class="image-cell">
+                <img src="vball.jpg" alt="Image 2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="text-box">EXTEMP SPEECH COMP</div>
+            </td>
+            <td class="image-cell">
+                <img src="extemp.jpg" alt="Image 3">
+            </td>
+            <td class="image-cell">
+                <img src="bookcost.jpg" alt="Image 4">
+            </td>
+            <td>
+                <div class="text-box">BOOKLANDIA COSTUME</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="image-cell">
+                <img src="bookcomp.jpg" alt="Image 5">
+            </td>
+            <td>
+                <div class="text-box">BOOKLANDIA COMPETITION</div>
+            </td>
+            <td>
+                <div class="text-box">HISTORICAL ICON</div>
+            </td>
+            <td class="image-cell">
+                <img src="icon.jpg" alt="Image 6">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="text-box">ALL ICONS</div>
+            </td>
+            <td class="image-cell">
+                <img src="alldress.jpg" alt="Image 7">
+            </td>
+            <td class="image-cell">
+                <img src="award.jpg" alt="Image 8">
+            </td>
+            <td>
+                <div class="text-box">AWARD</div>
+            </td>
+        </tr>
+    </table>
+
+    <h1 class="map">
+        <b>VIDEOS:</b>
+    </h1>
+    <div class="video-container">
+        <video controls="controls" autoplay>
+            <source src="vid1.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <div class="video-description">
+            MAPEH GROUPWORK
+        </div>
+    </div>
+    <div class="video-container">
+        <video controls="controls" autoplay>
+            <source src="vid2.mp4" type="video/mp4">
+        
+        </video>
+        <div class="video-description">
+            VOLLEYBALL COMPETITION
+        </div>
+    </div>
+<h1> SHORT EXPLANATIONS FOR ALL MEDIA:</h1>
+<div class="text-box-group">
+        <div class="text-box">SCIENCE FASHION SHOW: One of our biggest group performance tasks in the Science subject is this fashion show. We were tasked to create a skit of certain groups of elements walking down the runway. I was given the role of ARSENIC, a toxic substance.</div>
+        <div class="text-box">VOLLEYBALL PRACTICE: During our free time, my classmates and I practiced for our MAPEH PT which is a Volleyball game.We enjoyed and we got fit. Exercise is important in a growing kid's body so this PT was a good source of entertainment AND healthy</div>
+        <div class="text-box">EXTEMP SPEECH COMPETITION: I was assigned to be one of the runners for this school-wide competitions. The contestants truly were such talented and smart students. The whole day I was excused, luckily I did not miss out on that many things.</div>
+        <div class="text-box">BOOKLANDIA COSTUME: special day! We were told to wear a costume inspired by out favorite book characters! I went as patrick bateman from the satire book American Psycho. The red paint made my face itch, but I needed to wear it to keep the role obvious.</div>
+ <div class="text-box">BOOKLANDIA COMPETITION: my friends Jewel and Anthony represented our class for this years Booklandia! I'm very proud of them. They cosplayed characters from Avatar, and they did very very well! </div>
+        <div class="text-box">HISTORICAL ICON: I was chosen to be my class' representative for our AP MONTH's historical icon! I dressed up as Marsha P. Johnson, one of the first trans women to fight for trans rights.</div>
+        <div class="text-box">ALL ICONS: A picture of all icons from the grade 9 and 10 bracket. They all looked so very beautiful. </div>
+        <div class="text-box">AWARD: We didn't win but I did my best.I'm proud of my whole section, we all put in effort.</div>
+ <div class="text-box">MAPEH GROUP WORK: WE WERE RECORDING A MUSIC VIDEO ABOUT THE IMPORTANCE OF CARING FOR OUR PLANET, THIS CLIP IS A BEHIND THE SCENES SNEAK PEAK.</div>
+  <div class="text-box">VOLLEYBALL COMPETITION: The players were so cool, very athletic and talented. I aspire to be like them.</div>
+  </div>
+    <div class="conclusion">
+        <h2>REFLECTION:</h2>
+        <p>This quarter taught me many more ways, tips, and alternatives to code. I appreciate the ICT subject because despite it being confusing most of the time,
+the rush of excitement and nervousness when unsure if you'll be able to finish your webpage truly is exhilarating. Learning how to code inspires me to further polish
+my skills and maybe even pursue a job in the future that requires a lot of coding. I enjoyed learning the lessons and am excited to study even more. One thing I'd like
+to change is my approach to learning each lesson. I'll put in more time into practicing hands-on learning, because there have been many 
+incidents in which I was unable to finish my output in time, due to my lack of knowledge in the lesson.</p>
+    </div>
+</body>
+</html>
